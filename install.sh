@@ -6,9 +6,7 @@ DOTFILES_DIR="$HOME/dotfiles"
 
 FILES=(
   ".vimrc"
-  ".bashrc"
   ".gitconfig"
-  ".tmux.conf"
 )
 
 for file in "${FILES[@]}"; do

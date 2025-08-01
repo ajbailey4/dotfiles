@@ -1,0 +1,7 @@
+[user]
+	name = Aydan Bailey
+	email = ajbailey4@wisc.edu
+[core]
+	editor = vim
+[checkout]
+	defaultRemote = origin
