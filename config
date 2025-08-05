@@ -1,0 +1,42 @@
+Host attu.cs.washington.edu
+  HostName attu.cs.washington.edu
+  User aydanjb
+
+Host mininet
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/aydanbailey/mininet-vagrant/.vagrant/machines/default/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+  ForwardAgent yes
+  ForwardX11 yes
+
+Host googlevm
+  HostName 34.172.95.90
+  User aydan_bailey
+
+Host uwlinux
+  HostName best-linux.cs.wisc.edu
+  User ajbailey4
+
+Host tononi-2
+  HostName tononi-2
+  User ajbailey4
+
+Host chtc
+  HostName ap2002.chtc.wisc.edu
+  User ajbailey4
+  ControlMaster auto
+  ControlPersist 2h
+  ControlPath ~/.ssh/connections/%r@%h:%p
+
+Host hpc
+  HostName spark-login.chtc.wisc.edu
+  User ajbailey4
+  ControlMaster auto
+  ControlPersist 2h
+  ControlPath ~/.ssh/connections/%r@%h:%p
