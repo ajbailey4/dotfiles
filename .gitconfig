@@ -5,3 +5,5 @@
 	editor = vim
 [checkout]
 	defaultRemote = origin
+[init]
+	defaultBranch = main
