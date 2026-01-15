@@ -7,3 +7,5 @@
 	defaultRemote = origin
 [init]
 	defaultBranch = main
+[pull]
+	rebase = true
